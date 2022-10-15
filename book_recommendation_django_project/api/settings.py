@@ -11,6 +11,7 @@ https://docs.djangoproject.com/en/3.1/ref/settings/
 """
 
 from pathlib import Path
+from decouple import config
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -23,10 +24,11 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'pa*zh(55z^b_^2dxud8ht)578e1_$1@1#(el)o4+*1u1jkfeg^'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = config("DEBUG", default=True)
 
 ALLOWED_HOSTS = ['*']
 
+CORS_ORIGIN_WHITELIST = ['*']
 
 # Application definition
 
@@ -69,6 +71,10 @@ TEMPLATES = [
     },
 ]
 
+FIXTURE_DIRS = [
+  BASE_DIR / 'fixtures',
+]
+
 WSGI_APPLICATION = 'api.wsgi.application'
 
 
@@ -101,6 +107,10 @@ AUTH_PASSWORD_VALIDATORS = [
     },
 ]
 
+REST_FRAMEWORK = {
+    'PAGINATE_BY': 1000,
+    'PAGE_SIZE': 100
+}
 
 # Internationalization
 # https://docs.djangoproject.com/en/3.1/topics/i18n/
@@ -120,3 +130,9 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/3.1/howto/static-files/
 
 STATIC_URL = '/static/'
+
+# Config Vars
+BOOKS_API = config(
+    "BOOKS_API",
+    default="https://www.google.com/"
+)
