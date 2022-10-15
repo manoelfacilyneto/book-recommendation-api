@@ -1,0 +1,125 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="PyBroadExceptionInspection" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
+    <inspection_tool class="PyCompatibilityInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ourVersions">
+        <value>
+          <list size="3">
+            <item index="0" class="java.lang.String" itemvalue="3.8" />
+            <item index="1" class="java.lang.String" itemvalue="3.9" />
+            <item index="2" class="java.lang.String" itemvalue="3.10" />
+          </list>
+        </value>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyInterpreterInspection" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="PyMandatoryEncodingInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="myAllPythons" value="true" />
+    </inspection_tool>
+    <inspection_tool class="PyMethodMayBeStaticInspection" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
+    <inspection_tool class="PyPackageRequirementsInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredPackages">
+        <value>
+          <list size="8">
+            <item index="0" class="java.lang.String" itemvalue="scipy" />
+            <item index="1" class="java.lang.String" itemvalue="pylab" />
+            <item index="2" class="java.lang.String" itemvalue="easygui" />
+            <item index="3" class="java.lang.String" itemvalue="mysqlclient" />
+            <item index="4" class="java.lang.String" itemvalue="pymysql" />
+            <item index="5" class="java.lang.String" itemvalue="google" />
+            <item index="6" class="java.lang.String" itemvalue="djangorestframework-jwt" />
+            <item index="7" class="java.lang.String" itemvalue="pytest" />
+          </list>
+        </value>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyPep8Inspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="E402" />
+          <option value="E501" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyPep8NamingInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="N806" />
+          <option value="N801" />
+          <option value="N803" />
+          <option value="N802" />
+          <option value="N814" />
+          <option value="N813" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyShadowingBuiltinsInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredNames">
+        <list>
+          <option value="dir" />
+          <option value="id" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyShadowingNamesInspection" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
+    <inspection_tool class="PyTypeCheckerInspection" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="benchmarkapis.crud.admin.*" />
+          <option value="reviews.review.review" />
+          <option value="r_refresh.status_code" />
+          <option value="reviews.social.review" />
+          <option value="object.commit" />
+          <option value="object.close" />
+          <option value="google.cloud.language_v1.types.*" />
+          <option value="wikipedia_text_classification.tensor2tensor" />
+          <option value="tensorflow.keras.load_model" />
+          <option value="cv2.*" />
+          <option value="float.__getitem__" />
+          <option value="generate_cars_regression.fbprophet" />
+          <option value="dict.get" />
+          <option value="django.db.models.fields.related.ForeignKey.fulfillments" />
+          <option value="order.models.Fulfillment.lines" />
+          <option value="django.db.models.fields.related.ForeignKey.id" />
+          <option value="pymysql.cursors" />
+          <option value="order.models.Order.objects" />
+          <option value="order.models.OrderLine.objects" />
+          <option value="type.with_ui" />
+          <option value="order.models.Order.DoesNotExist" />
+          <option value="modulo_autenticacao.user.views.API" />
+          <option value="username" />
+          <option value="matera.accounts.views.*" />
+          <option value="matera.*" />
+          <option value="type.without_ui" />
+          <option value="accounts.models.Person.objects" />
+          <option value="accounts.models.Account.objects" />
+          <option value="accounts.serializers.User.AccountPFSerializer.Meta.model" />
+          <option value="integrations.models.ProductSimple.objects" />
+          <option value="list.all" />
+          <option value="user.models.User.DoesNotExist" />
+          <option value="user.models.User.objects" />
+          <option value="merchant.models.DjangoUser" />
+          <option value="custom_logger.models.LogIntegration._meta" />
+          <option value="str.request" />
+          <option value="str.log_type" />
+          <option value="str.name" />
+          <option value="polars.internals.lazy_frame.LazyGroupBy.collect" />
+          <option value="order.utils.OrderCrossBorderUtils.status" />
+          <option value="merchant.mixpanel.MixpanelService.id" />
+          <option value="merchant.mixpanel.MixpanelService.*" />
+          <option value="custom_logger.models.LogLogistics.objects" />
+          <option value="order.models.DeliveryIntentOrders.*" />
+          <option value="order.models.DeliveryIntent.*" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyUnusedLocalInspection" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
+    <inspection_tool class="SpellCheckingInspection" enabled="false" level="TYPO" enabled_by_default="false">
+      <option name="processCode" value="true" />
+      <option name="processLiterals" value="false" />
+      <option name="processComments" value="false" />
+    </inspection_tool>
+  </profile>
+</component>
